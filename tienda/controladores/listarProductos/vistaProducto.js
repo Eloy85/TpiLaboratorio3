@@ -102,8 +102,8 @@ function registrarCompra() {
 
         const idUsuario = session.idUsuario;
         const emailUsuario = session.email;
-        const idProducto = document.querySelector('[data-idProducto="${id}"]'); //document.getElementById('idProducto');
-        const nameProducto = document.getElementById('nameProducto').value;
+        const idProducto = document.getElementById('nameProducto').getAttribute('data-idProducto');
+        const nameProducto = document.getElementById('nameProducto').textContent;
         const cantidad = document.getElementById('cantidadProducto').value;
         const fecha = new Date().toISOString();
 
