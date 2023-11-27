@@ -17,6 +17,7 @@ html{
 }
 body{
     font-size: 1.6rem;
+    margin-bottom: 80px;
 }
 header{
     display: flex;
@@ -55,12 +56,15 @@ a{
 }
 
 footer{
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
     font-family: sans-serif;
     font-size: 0.8rem;
     font-weight: normal;
-    margin: 0 2rem;
     padding: 2rem;
     border-top: 1px solid rgba(128, 128, 128, 0.5);
+    background-color: rgba(33, 204, 153, 0.432);
 }
 
 .item-producto {
