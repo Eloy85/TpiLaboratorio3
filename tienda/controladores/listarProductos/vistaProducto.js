@@ -54,7 +54,7 @@ function htmlVistaProducto(id, nombre, descripcion, precio, imagen) {
 
         <p id="descripcionProducto">${descripcion}</p>
 
-        <p id="precioProducto">${precio}</p>
+        <p id="precioProducto">$${precio}</p>
 
         <div class="form-group">
             <label for="cantidadProducto">Cantidad</label>
@@ -107,7 +107,7 @@ function registrarCompra() {
         const cantidad = document.getElementById('cantidadProducto').value;
         const fecha = new Date().toISOString();
 
-        ventasServices.crear(idUsuario, emailUsuario, idProducto, nameProducto, cantidad, fecha, 0);
+        ventasServices.crear(idUsuario, emailUsuario, idProducto, nameProducto, cantidad, fecha, false);
         
         location.replace("tienda.html");
         alert('Compra finalizada.');

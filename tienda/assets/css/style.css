@@ -11,7 +11,7 @@
 html{
     font-family: "Josefin Sans";
     font-size: 10px;
-    background-image: url("../../../img/plantilla/20231125_170156_0000.png");
+    background-image: url("../../../img/plantilla/Logo_fondo.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -63,18 +63,42 @@ footer{
     border-top: 1px solid rgba(128, 128, 128, 0.5);
 }
 
-/*.item-producto {
-    display: flex;
-}*/
+.item-producto {
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.item-producto:hover {
+    transform: scale(1.1);
+    opacity: 0.6;
+}
 
 .item-producto:nth-child(odd) {
-    background-color: pink;
+    background-color: rgba(255, 194, 204, .6);
 }
 
 .item-producto:nth-child(even) {
-    background-color: rgb(243, 243, 102);
+    background-color: rgba(243, 243, 102, .6);
 }
 
 .categoria h1 {
-    text-shadow: 2px 2px 5px #20c997;
+    text-shadow: 2px 2px 5px lightgray;
+    font-size: 2.5rem;
+    background-color: rgba(33, 204, 153, .6);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    
+}
+
+nav li {
+    margin: 0 1rem;
 }

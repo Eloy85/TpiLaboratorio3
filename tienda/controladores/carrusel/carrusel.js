@@ -42,7 +42,6 @@ const htmlCarrusel =
         </div>
     </div>
 </div>
-   
 
 ` 
 

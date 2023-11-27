@@ -9,7 +9,7 @@ function htmlCategoria(id, categoria) {
     /*POR ULTIMO, LA FUNCION DEVOLVERA LA CADENA RESULTANTE*/
     return `
     <div class="categoria" data-idCategoria="${id}">
-        <h1 class="categoria">${categoria}</h1>
+        <h1 class="categoria" id="categoria-${id}">${categoria}</h1>
         <div class="productos">
             
             <!-- Aca se listan los productos-->
@@ -36,7 +36,7 @@ function htmlItemProducto(id, foto, nombre, precio) {
 
         <img src="${foto}" >
         <p class="producto_nombre">${nombre}</p>
-        <p class="producto_precio">${precio}</p>
+        <p class="producto_precio">$${precio}</p>
 
         <a href="?idProducto=${id}#vistaProducto" type="button" class="producto_enlace" >Ver producto</a>
 
