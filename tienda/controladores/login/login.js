@@ -86,11 +86,13 @@ function crearFormulario(registrar) {
     const seccionProductos = document.querySelector('.seccionProductos');
     const vistaProducto = document.querySelector('.vistaProducto');
     const seccionLogin = document.querySelector('.seccionLogin');
+    const barraNav = document.querySelector('.nav');
 
     carrusel.innerHTML = '';
     seccionProductos.innerHTML = '';
     vistaProducto.innerHTML = '';
     seccionLogin.innerHTML = htmlLogin;
+    barraNav.innerHTML = '';
 
     inputEmail = document.getElementById('loginEmail');
     inputPassword = document.getElementById('loginPassword');
