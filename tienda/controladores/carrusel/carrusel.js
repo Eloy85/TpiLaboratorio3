@@ -2,7 +2,7 @@ const htmlCarrusel =
 `
 
 <div class="conteCarrousel">
-    <div class="itemCarrousel" id="itemCarrousel-1">
+    <div class="itemCarrousel" id="itemCarrousel-1" >
         <div class="itemCarrouselTarjeta">
             <img src="/img/slider/carrusel1.png" alt="">
         </div>

@@ -102,3 +102,7 @@ nav ul {
 nav li {
     margin: 0 1rem;
 }
+.redes-sociales a img {
+    width: 2%; 
+    margin: 15px 15px 0 0;
+}
