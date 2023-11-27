@@ -11,9 +11,10 @@
 html{
     font-family: "Josefin Sans";
     font-size: 10px;
-    background-image: url("../../../img/plantilla/Logo_fondo.jpg");
+    background-image: url("../../../img/plantilla/Logo_fondo-removebg.png");
     background-attachment: fixed;
     background-size: cover;
+    background-color: white;
 }
 body{
     font-size: 1.6rem;
@@ -41,7 +42,7 @@ a{
 .login{
     display: flex;
     align-items: center;
-   
+    
     
 }
 .login div:first-child {
@@ -62,7 +63,7 @@ footer{
     font-family: sans-serif;
     font-size: 0.8rem;
     font-weight: normal;
-    padding: 2rem;
+    padding: 0.5rem;
     border-top: 1px solid rgba(128, 128, 128, 0.5);
     background-color: rgba(33, 204, 153, 0.432);
 }
